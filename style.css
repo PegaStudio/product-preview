@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-  border-radius: 1rem;
+  border-radius: 1rem;  
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -24,6 +24,7 @@ body {
   background-color: white;
   overflow: hidden;
   max-height: 100vh;
+  min-width: 375px;
 }
 
 .image {
@@ -49,6 +50,7 @@ body {
   font-size: 2.5rem;
   padding-right: 2rem;
   line-height: 3rem;
+  margin: 1rem 2rem 0 0;
 }
 
 .card2 {
@@ -65,7 +67,7 @@ body {
 .price {
   display: flex;
   align-items: center;
-  margin: 1rem 1rem 0 0;
+  margin: 1rem 1rem 1rem 0;
 }
 
 .new-price {
